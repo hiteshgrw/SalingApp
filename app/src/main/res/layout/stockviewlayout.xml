@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/stockvbname"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="BOOK NAME"
+            android:textSize="16sp"
+            android:layout_weight="75"
+            android:textColor="@android:color/holo_green_dark"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/stockvbprice"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="Rs NN"
+            android:textSize="14sp"
+            android:layout_weight="25"
+            android:textColor="@android:color/holo_blue_bright"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/stockvbpquan"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="PURCHASED N PCS"
+            android:textSize="15sp"
+            android:layout_weight="50"
+            android:textColor="@android:color/holo_orange_dark"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/stockvbsquan"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="SOLD N PCS"
+            android:textSize="15sp"
+            android:layout_weight="50"
+            android:textColor="@android:color/holo_red_light"/>
+    </LinearLayout>
+
+</LinearLayout>

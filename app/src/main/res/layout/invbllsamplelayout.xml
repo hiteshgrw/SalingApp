@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="100">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="BOOK NAME"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:id="@+id/inblltvbookname"
+        android:layout_weight="100"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="18sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="100"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="N pcs"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:id="@+id/inblltvbookquan"
+        android:layout_weight="50"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="14sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="Rs NNNN"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:id="@+id/inblltvbookprice"
+        android:layout_weight="50"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="14sp"/>
+    </LinearLayout>
+</LinearLayout>

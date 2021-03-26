@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/stdsetname"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="SET NAME"
+            android:layout_weight="100"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/stdnoofitem"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="n Items Selected"
+            android:layout_weight="50"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/stdtotalprice"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="Rs 0.0"
+            android:layout_weight="50"/>
+    </LinearLayout>
+
+</LinearLayout>

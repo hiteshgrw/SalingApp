@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.saleservice">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainPage"></activity>
+        <activity android:name=".splashscreen" />
+        <activity android:name=".resetuserpass" />
+        <activity android:name=".userMainActivity" />
+        <activity android:name=".showalluser" />
+        <activity android:name=".loginpage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".createuser" />
+        <activity android:name=".usermgmt" />
+        <activity android:name=".deleteuser" />
+        <activity android:name=".phnno" />
+        <activity android:name=".invoiceshow" />
+        <activity android:name=".shownetstocklayout" />
+        <activity android:name=".showschoolstock" />
+        <activity android:name=".invoicecreation" />
+        <activity android:name=".Showbooklist" />
+        <activity android:name=".Booklistcreation" />
+        <activity android:name=".Companymgmt" />
+        <activity android:name=".showclass" />
+        <activity android:name=".Classmgmt" />
+        <activity android:name=".schoolmgmt" />
+        <activity android:name=".userinvcreate" />
+        <activity android:name=".userinvshow" />
+        <activity android:name=".dwnlduserdata" />
+        <activity android:name=".stockcollectviewer"/>
+        <activity android:name=".stockschoolviewer"/>
+        <activity android:name=".ordercreator"/>
+        <receiver android:name=".Notificationreciever"/>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+    </application>
+
+</manifest>

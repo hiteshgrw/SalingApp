@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/userreloaddata"
+        android:title="Download Data"
+        android:orderInCategory="5"
+        android:icon="@drawable/ic_download" />
+    <item android:id="@+id/useruploaddata"
+        android:title="Upload Data"
+        android:orderInCategory="2"
+        android:icon="@drawable/ic_upload"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/userlogout"
+        android:title="Logout"
+        android:orderInCategory="3"/>
+    <item android:id="@+id/resetdatadwnld"
+        android:title="Re-Install Deleted Data"
+        android:orderInCategory="4"/>
+</menu>

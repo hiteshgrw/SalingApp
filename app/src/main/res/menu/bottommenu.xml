@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nvbhome"
+        android:icon="@drawable/ic_home"
+        android:title="Home"/>
+    <item android:id="@+id/nvbcreate"
+        android:icon="@drawable/ic_edit"
+        android:title="Add Items"/>
+    <item android:id="@+id/nvbshow"
+        android:icon="@drawable/ic_show"
+        android:title="Show Entries"/>
+    <item android:id="@+id/nvbinv"
+        android:icon="@drawable/ic_makeentry"
+        android:title="Add Entries"/>
+    <item android:id="@+id/StockSummary"
+        android:icon="@drawable/ic_stock"
+        android:title="Stock Summary"/>
+</menu>
